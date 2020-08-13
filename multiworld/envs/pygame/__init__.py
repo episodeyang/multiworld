@@ -23,10 +23,10 @@ def register_reaching_envs():
     register(
         id='Point2DLargeEnv-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DEnv',
-        tags={
-            'git-commit-hash': '4efe2be',
-            'author': 'Vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '4efe2be',
+        #     'author': 'Vitchyr'
+        # },
         kwargs={
             'images_are_rgb': True,
             'target_radius': 1,
@@ -39,9 +39,9 @@ def register_reaching_envs():
     register(
         id='Point2DEasyEnv-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DEnv',
-        tags={
-            'author': 'Ashvin'
-        },
+        # tags={
+        #     'author': 'Ashvin'
+        # },
         kwargs={
             'images_are_rgb': True,
             'target_radius': 1,
@@ -55,10 +55,10 @@ def register_reaching_envs():
     register(
         id='Point2DLargeEnv-offscreen-v0',
         entry_point='multiworld.envs.pygame.point2d:Point2DEnv',
-        tags={
-            'git-commit-hash': '166f0f3',
-            'author': 'Vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '166f0f3',
+        #     'author': 'Vitchyr'
+        # },
         kwargs={
             'images_are_rgb': True,
             'target_radius': 1,
@@ -69,10 +69,10 @@ def register_reaching_envs():
     register(
         id='Point2DLargeEnv-onscreen-v0',
         entry_point='multiworld.envs.pygame.point2d:Point2DEnv',
-        tags={
-            'git-commit-hash': '166f0f3',
-            'author': 'Vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '166f0f3',
+        #     'author': 'Vitchyr'
+        # },
         kwargs={
             'images_are_rgb': True,
             'target_radius': 1,
@@ -83,10 +83,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Box-Wall-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 1.,
             'wall_shape': 'box',
@@ -100,10 +100,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Big-UWall-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'big-u',
@@ -117,10 +117,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Easy-UWall-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'easy-u',
@@ -137,10 +137,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Easy-UWall-v2',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'easy-u',
@@ -157,10 +157,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Easy-UWall-Hard-Init-v2',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'easy-u',
@@ -216,10 +216,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Easy-UWall-WhiteBackground-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'easy-u',
@@ -236,10 +236,10 @@ def register_reaching_envs():
     register(
         id='Point2D-Easy-UWall-Hard-Init-WhiteBackground-v1',
         entry_point='multiworld.envs.pygame.point2d:Point2DWallEnv',
-        tags={
-            'git-commit-hash': '73c8823',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '73c8823',
+        #     'author': 'vitchyr'
+        # },
         kwargs={
             'action_scale': 0.25,
             'wall_shape': 'easy-u',
@@ -296,18 +296,18 @@ def register_reaching_envs():
     register(
         id='Point2D-ImageFixedGoal-v0',
         entry_point=point2d_image_fixed_goal_v0,
-        tags={
-            'git-commit-hash': '2e92a51',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '2e92a51',
+        #     'author': 'vitchyr'
+        # },
     )
     register(
         id='Point2D-Image-v0',
         entry_point=point2d_image_v0,
-        tags={
-            'git-commit-hash': '78c9f9e',
-            'author': 'vitchyr'
-        },
+        # tags={
+        #     'git-commit-hash': '78c9f9e',
+        #     'author': 'vitchyr'
+        # },
     )
 
 def register_pnp_envs():
